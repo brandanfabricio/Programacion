@@ -18,9 +18,24 @@
         <li><a href="/materias/index.html" target="_blank"> Trabajo 2</a></li>
 
 
-
+        <button id="pdf"> descargar</button>
 
     </ul>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+ <script type="text/javascript">
+        boton = document.getElementById("pdf");
+            const hola = () => {
+
+                axios("js.pdf").then(res => console.log(res));
+                
+            }
+        boton.addEventListener("click", hola)
+
+    </script>
+
+
+
 </html>
