@@ -10,6 +10,8 @@ const Index = () => {
         <p> Primera pagina usando NextJs ❤ </p>
 
 
+
+
         <style jsx>{
             `
         h1 {
