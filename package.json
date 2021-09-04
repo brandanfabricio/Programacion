@@ -1,0 +1,28 @@
+{
+  "name": "programacion",
+  "version": "1.0.0",
+  "description": "trabajos de programacion",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": " next lint"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandanfabricio/Programacion.git"
+  },
+  "author": "Brandan Fabricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandanfabricio/Programacion/issues"
+  },
+  "homepage": "https://github.com/brandanfabricio/Programacion#readme",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
